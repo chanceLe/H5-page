@@ -16,15 +16,15 @@
       border: 1px solid gray;
       border-radius: 3px;
       margin-top: 10px;
-      padding-left: 20px;
-      padding-right: 20px;
+    }
+    i{
+    margin-bottom: 10px;
     }
 
       #lunbo{
         margin-top: 60px;
       }
       h2{
-        padding-left:5px;
         color: blue;
       }
       #course i{
@@ -114,9 +114,10 @@
      </div>
    </div>
    <div class="container">
-   <div  id="course">
+   <div  id="course" style="padding:15px;">
+     <h2>前端课程</h2>
       <div class="row">
-        <h2>前端课程</h2>
+
         <div class="col-md-4 col-sm-6 col-xs-12">
           <h3><i class="fa fa-html5 fa-2x" aria-hidden="true"></i>HTML5课程大纲</h3>
           <p>HTML的英文全称为Hyper Text Markup Language，即超文本标记语言。HTML5是HTML的一个新版本。HTML 不是一种编程语言，而是一种标记语言。</p>
@@ -131,8 +132,8 @@
         </div>
       </div>
 
+      <h2>框架应用</h2>
       <div class="row">
-        <h2>框架应用</h2>
         <div class="col-md-4 col-sm-6 col-xs-12">
           <h3><i class="fa fa-btc fa-2x" aria-hidden="true"></i>BootStrap课程大纲</h3>
           <p>Bootstrap，来自 Twitter，是目前很受欢迎的前端框架。Bootstrap 是基于 HTML、CSS、JAVASCRIPT 的，它简洁灵活，使得 Web 开发更加快捷。</p>
@@ -147,8 +148,8 @@
         </div>
       </div>
 
+      <h2>全栈开发</h2>
       <div class="row">
-        <h2>全栈开发</h2>
         <div class="col-md-4 col-sm-6 col-xs-12">
           <h3><i class="fa fa-book icon fa-2x" aria-hidden="true"></i>Node.js课程大纲</h3>
           <p>HTML的英文全称为Hyper Text Markup Language，即超文本标记语言。HTML5是HTML的一个新版本。HTML 不是一种编程语言，而是一种标记语言。</p>
@@ -167,12 +168,13 @@
   <br>
    <!--学员风采 -->
    <div class="container">
-     <div class="row">
-       <h1 style="padding-left:20px;color:#63b8ff;float:right;">
+     <div class="row" style="padding-right:15px;">
+       <h1 style="color:#63b8ff;float:right;">
        <i class="fa fa-camera" aria-hidden="true"></i>精彩瞬间</h1>
      </div>
    </div>
-   <div class="container student" style="padding:0;">
+   <div class="container">
+   <div class="student">
         <div class="col-md-3 col-sm-4 col-xs-6 member thumbnail ">
             <img src="images/t1.jpg" alt="" class="img-responsive">
         </div>
@@ -211,6 +213,7 @@
         <div class="col-md-3 col-sm-4 col-xs-6 member thumbnail">
             <img src="images/t12.jpg" alt="" class="img-responsive">
         </div>
+        </div>
       </div>
     </div>
    </div>
@@ -222,7 +225,7 @@
        <i class="fa fa-usd" aria-hidden="true"></i>优惠折扣</h1>
      </div>
    </div>
-   <div class="container"  style="padding:0;">
+   <div class="container" style="padding:0;">
      <div class="tablebox col-md-4 col-sm-4 col-xs-12" >
        <div class="panel panel-default" style="border-color:pink;">
        <div class="panel-heading" style="background-color:pink;">前端课程</div>
@@ -251,14 +254,9 @@
      </div>
      </div>
 
-
-
      <div class="tablebox col-md-4 col-sm-4 col-xs-12" >
        <div class="panel panel-primary" >
        <div class="panel-heading" >全栈课程</div>
-       <!-- <div class="panel-body">
-         Basic panel example
-       </div> -->
        <table class="table">
          <tr>
            <td>课程名称</td>
